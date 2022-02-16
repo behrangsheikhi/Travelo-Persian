@@ -1,0 +1,90 @@
+@media (max-width: 575.98px) {
+  .search-icon {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header {
+    display: block !important;
+  }
+
+  .header-logo img{
+    width: 100px;
+    margin-top: 10px;
+    margin-top: -13px;
+  }
+  
+  .header-menu {
+    display: none;
+    width: 100%;
+    float: right;
+  }
+
+  .header-menu-item {
+    margin: 20px 5px;
+    font-size: 14px;
+    float: right;
+    display: grid;
+    column-width: 100%;
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .search-icon {
+    width: 60px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    background-color: #ff4a52;
+  }
+
+  .search-icon a {
+    color: #ffffff;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60px;
+    top: 0;
+    bottom: 0;
+    background-color: #1ec6b6;
+    right: 0;
+    z-index: 1000;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav li {
+    display: inline-block;
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .search-icon {
+    right: 0;
+  }
+
+  .search-icon {
+    width: 100px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

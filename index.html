@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سفرنامه</title>
+    <!-- link css files here -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- link CDNs here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header style here -->
+    <header class="">
+      <div class="header-logo">
+        <a href="#"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <nav>
+        <ul class="header-menu" id="header">
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">تماس با ما</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">درباره ما</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">بلاگ</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">صفحات</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">خدمات</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-item-link">خانه</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="">
+        <button type="submit" onclick="searchBox()" class="search-icon d-flex">
+          <a href="#"><i class="fa fa-search"></i></a>
+        </button>
+        <button
+          type="submit"
+          class="dropdown-menu header-menu-burger"
+          onclick="showMenu()"
+        >
+          <a href="#"><i class="fa fa-bars"></i></a>
+        </button>
+      </div>
+    </header>
+    <!-- finish header style -->
+
+    <!-- main content here -->
+    <main class="">
+        <section class="slider">
+            <div class="slider-text">
+                <h3>زیبایی های ایران</h3>
+                <p>ما در این سایت قراره کلی جاهای دیدنی از ایران رو نشونتون بدیم،از خزر تا خلیج فارس،از خراسان تا آذربایجان،از بلوچستان تا کردستان،همه و همه در اینجا عکس های جالی از همشون هست،طوری که باور نمیکنی اینجاایران هست  </p>
+                <a type="submit" href="#" class="slider-btn">بزن بریم</a>
+            </div>
+        </section>
+    </main>
+    <!-- finish main contents -->
+
+    <!-- footer style is here -->
+    <footer class=""></footer>
+    <!-- footer sstyles ends here -->
+
+    <script>
+      function showMenu() {
+        var menu = document.getElementById("header");
+        if (menu.className === "header-menu") {
+          menu.className += " show";
+        } else {
+          menu.className = "header-menu";
+        }
+      }
+
+      
+    </script>
+  </body>
+</html>
