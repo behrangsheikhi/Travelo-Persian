@@ -97,11 +97,12 @@ header {
   background-color: #ffffff;
   justify-content: space-around;
   padding: 25px 0;
-  font-family: "iran-sans",'Yekan','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "iran-sans", "Yekan", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
   position: relative;
 }
 
-.header-logo{
+.header-logo {
   float: left !important;
 }
 
@@ -136,7 +137,6 @@ nav li {
   justify-content: center;
   align-items: center;
   border: none;
-  
 }
 
 .header-menu-nurger {
@@ -149,15 +149,20 @@ nav li {
 }
 
 /* main part css */
-.slider{
-  background-image: url('../images/banner2.png');
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  background-image: url("../images/banner2.png");
   height: 50vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.slider-text{
+.slider-text {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -165,33 +170,35 @@ nav li {
   flex-direction: column;
 }
 
-.slider h3{
-  font-size: 38px;
+.slider h3 {
+  color: #ffffff;
+  text-shadow: 0px 5px 5px rgb(175, 175, 175);
+  font-size: 7vw;
   font-weight: 700;
 }
 
-.slider p{
-  font-family: 'Yekan';
-  font-size: 26px;
+.slider p {
+  color: #ffffff !important;
+  font-family: "Yekan";
+  font-size: 3vw;
   width: 70%;
   text-align: center;
   color: #000;
   font-weight: 500;
 }
 
-.slider-btn{
-  width: auto;
-  padding: 20px 15px;
+.slider-btn {
+  padding: 1vw 1.3vw;
   background-color: #1ec6b6;
   color: #ffffff;
   font-size: 22px;
   border-radius: 8px;
   border: none;
-  font-family: 'Yekan';
+  font-family: "Yekan";
   transition: all 0.5s;
 }
 
-.slider-btn:hover{
+.slider-btn:hover {
   cursor: pointer;
   transform: scale(1.1);
   color: #ffffff !important;
