@@ -180,7 +180,7 @@ nav li {
 .slider p {
   color: #ffffff !important;
   font-family: "Yekan";
-  font-size: 3vw;
+  font-size: 2.5vw;
   width: 70%;
   text-align: center;
   color: #000;
@@ -202,4 +202,5 @@ nav li {
   cursor: pointer;
   transform: scale(1.1);
   color: #ffffff !important;
+  background-color: #ff4a52;
 }
